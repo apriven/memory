@@ -1,0 +1,44 @@
+div{
+    width: 1001px;
+    height: 800px;
+    
+}
+#intro{
+    /* background-image: url(../pics/intro.jpg);
+    background-size: center;
+    background-repeat: no-repeat; */
+    background-color: red;
+    position: relative;
+
+}
+#game{
+    background-color: blue;
+    display: none;
+
+}
+#aboutGame{
+    background-color: grey;
+    display: none;
+}
+.buttonsbox{
+    position: absolute;
+    left:400px;
+    top:600px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width:200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.card{
+    height: 110px;
+    width: 80px;
+    background-color: black;
+    margin-right: 99px;
+}
+table{
+    position: absolute;
+    margin-top: 300px;
+}
